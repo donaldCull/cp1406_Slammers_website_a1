@@ -3,14 +3,18 @@ div.container {
     border: 1px solid white;
     background-color: beige;
 }
+header{
+    font-size: 2em;
+}
 
 header, footer {
     padding: 1em;
     color: white;
-    background-color: black;
+    background-color: rgb(255, 200, 29);
     clear: left;
     text-align: center;
 }
+
 nav ul{
     list-style-type: none;
     margin: 0;
