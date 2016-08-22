@@ -48,6 +48,12 @@ nav li a{
     text-decoration: none;
 }
 
+form{
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 20px;
+}
+
 .transbox{
     width: 50%;
     height: auto;
@@ -59,3 +65,4 @@ nav li a{
 .transbox article{
     color: black;
 }
+
