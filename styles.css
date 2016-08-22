@@ -48,23 +48,14 @@ nav li a{
     text-decoration: none;
 }
 
-.background{
+.transbox{
     width: 50%;
-    height: 200px;
-    background-color: aliceblue;
-    opacity: 0.5;
-    margin: 100px auto;
+    height: auto;
+    background-color: white;
+    opacity: 0.6;
+    margin: auto;
     padding: 1em;
 }
-.transbox h2{
-    font-weight: bold;
-    color: #333333;
-}
-
-#contact{
-    width: 50%;
-    height: 200px;
-    background-color: aliceblue;
-    margin: 100px auto;
-    padding: 1em;
+.transbox article{
+    color: black;
 }
