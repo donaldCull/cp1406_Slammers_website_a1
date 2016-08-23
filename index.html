@@ -5,6 +5,7 @@
     <title>Slammers Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -18,23 +19,23 @@
                 <li><a href="about.html" >About</a></li>
             </ul>
         </nav>
-
-        <a href="sign_up.html" >Sign up</a>
-
     <div class="transbox">
-        <h2>Announcements</h2>
-            <ul>
-                <li>During August only, you can purchase <em>4 drinks for the price of 3</em> at the bar.</li>
-                <li>New teams get a <em>20% discount</em> on registration for the next season.</li>
-                <li>Slammers Tournament:
-                    <ul>
-                        <li>Get your nominations in now for the next 4-a-side weekend competition.</li>
-                        <li>New season starts August 21st.</li>
-                    </ul>
-                </li>
-            </ul>
 
-        <table>
+        <div id="announcements">
+            <h1>Announcements</h1>
+                <dl>
+                    <dt>Discounts</dt>
+                    <dd>During August only, you can purchase <em>4 drinks for the price of 3</em> at the bar.</dd>
+                    <dd>New teams get a <em>20% discount</em> on registration for the next season.</dd>
+                </dl>
+
+                <dl>
+                    <dt>Slammers Tournament:</dt>
+                    <dd>Get your nominations in now for the next 4-a-side weekend competition.</dd>
+                    <dd>New season starts August 21st.</dd>
+                </dl>
+        </div>
+        <table id="leaderboard">
             <tr>
                 <th>Position</th>
                 <th>Team</th>
@@ -157,19 +158,10 @@
                 <td>139</td>
             </tr>
 
-        </table>
-    </div>
+            </table>
 
-    <div class="transbox">
-    <!--TODO Find correct tag and format for contact details-->
-            <h2>Contacts</h2>
-            <ul>
-                <li>Phone:47712233</li>
-                <li>Fax: 4771 2244</li>
-                <li>Address: 123 Pokemund Street, Cairsville</li>
-                <li>Email: <a href="mailto:slammers@gmail.com">slammers@gmail.com</a></li>
-            </ul>
-    </div>
+
+        </div>
         <footer>Copyright &copy; Slammers 2016 </footer>
     </div>
 </body>

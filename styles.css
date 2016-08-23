@@ -1,12 +1,14 @@
 div.container {
     width: 100%;
     border: 1px solid white;
-    background-image: url("images/beachNet_cropped.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
     height: 1300px;
-    background-attachment: local;
+    background: url("images/beachNet_cropped.jpg") no-repeat scroll center;
     position: relative;
+}
+
+em{
+    font-weight: bold;
 }
 
 footer{
@@ -48,20 +50,39 @@ nav li a{
     text-decoration: none;
 }
 
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+#announcements{
+    margin-left: 70px;
+    text-align: left;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    padding: 25px;
+
 }
 
-td, th {
+ #leaderboard{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    max-width: 75%;
+    margin: auto;
+}
+
+#leaderboard td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
 
-tr:nth-child(even) {
+#leaderboard tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+#contacts{
+    text-align: left;
+    border: none;
+    padding: 20px;
+}
+#contacts th{
+    border: none;
 }
 
 form{
@@ -71,14 +92,32 @@ form{
 }
 
 .transbox{
-    width: 50%;
+    width: 75%;
     height: auto;
     background-color: white;
     opacity: 0.6;
     margin: auto;
-    padding: 1em;
+    position: relative;
+    padding: 25px;
 }
-.transbox article{
-    color: black;
-}
+
+
+
+
+
+
+
+
+
+/*.transbox article{*/
+    /*color: black;*/
+    /*padding-bottom: 25px;*/
+/*}*/
+
+/*#announcements{*/
+    /*padding: 25px;*/
+
+/*.transbox table{*/
+    /*margin: auto;*/
+/*}*/
 

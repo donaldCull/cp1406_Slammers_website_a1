@@ -7,60 +7,82 @@
 </head>
 <body>
 <div class="container">
-<header>
-    <h1>Sign up</h1>
-</header>
+    <header>
+        <img src="images/vector_volleyball_logo.png" alt="slammers logo">
+    </header>
 
-<nav>
-    <ul>
-        <li><a href="index.html" >Home</a></li>
-        <li><a href="sign_up.html" >Sign up</a></li>
-        <li><a href="about.html" >About</a></li>
-    </ul>
-</nav>
+    <nav>
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="sign_up.html" >Sign up</a></li>
+            <li><a href="about.html" >About</a></li>
+        </ul>
+    </nav>
 
-<div class="transbox">
-    <form action="">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="contact">Contact Number:</label><br>
-        <input type="text" id="contact" name="contact number"><br>
-        <label for="mail">Email:</label><br>
-        <input type="email" id="mail" name="email"><br>
+    <div class="transbox">
+        <form action="">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="phone">Contact Number:</label><br>
+            <input type="text" id="phone" name="contact number"><br>
+            <label for="mail">Email:</label><br>
+            <input type="email" id="mail" name="email"><br>
 
-        <label for="day">Choose your competition day</label><br>
-        <select id="day" name="Days">
-            <option value="monday">Monday</option>
-            <option value="tuesday">Tuesday</option>
-            <option value="wednesday">Wednesday</option>
-            <option value="thursday">Thursday</option>
-            <option value="friday">Friday</option>
-            <option value="saturday">Saturday</option>
-        </select>
-        <br>
-        <label for="time">Choose your competition time</label><br>
-        <select id="time" name="time">
-            <option value="afternoon">Afternoon</option>
-            <option value="evening">Evening</option>
-        </select>
-    </form>
-</div>
 
-<div class="transbox">
-    <h2>Playing Guidelines</h2>
-    <p>
-        Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable.
-        Check with your doctor before you begin.  Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours before hand to get a refund.
-        Without 4 hours notice, participants will forfeit the game and be charged 50% of the game fee.
-    </p>
-</div>
+            <label for="day">Choose your competition day</label><br>
+            <select id="day" name="Days">
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday</option>
+            </select>
+            <br>
+            <label for="time">Choose your competition time</label><br>
+            <select id="time" name="time">
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+            </select>
+            <br><br>
+            <input type="submit" id="submit" value="Submit"><br>
+        </form>
 
-<div class="transbox">
-    <form>
-        <label for="agree">Have you read and agreed with our playing guidelines</label>
-        <input type="checkbox" id="agree" name="agree" value="agree"><br>
-    </form>
-</div>
+        <h2>Playing Guidelines</h2>
+        <p>
+            Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable.
+            Check with your doctor before you begin.  Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours before hand to get a refund.
+            Without 4 hours notice, participants will forfeit the game and be charged 50% of the game fee.
+        </p>
+
+        <form>
+            <label for="agree"><em>Have you read and agreed with our playing guidelines</em></label>
+            <input type="checkbox" id="agree" name="agree" value="agree"><br>
+        </form>
+
+        <table id="contacts">
+            <tr>
+            <th>Contacts</th>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td>47712233</td>
+            </tr>
+            <tr>
+                <td>Fax:</td>
+                <td>4771 2244</td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>123 Pokemund Street, Cairnsville</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><a href="mailto:slammers@gmail.com">slammers@gmail.com</a></td>
+            </tr>
+        </table>
+    </div>
+
 
     <footer>Copyright &copy; Slammers 2016 </footer>
 </div>
