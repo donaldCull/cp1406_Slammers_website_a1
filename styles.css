@@ -42,6 +42,7 @@ nav ul{
 
 nav li{
     float: left;
+    border-right: 1px solid white;
 }
 
 nav li a{
@@ -51,6 +52,14 @@ nav li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #eee739;
+}
+
+.active{
+    background-color: aqua;
 }
 
 #announcements{
@@ -77,8 +86,8 @@ nav li a{
 }
 
 #leaderboard td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
+    border: 1px solid black;
+    text-align: center;
     padding: 8px;
 }
 
@@ -133,6 +142,14 @@ label{
     padding: 10px;
     width: 400px;
     height: 300px;
+}
+#photo-attribution{
+    float: right;
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+    clear: right;
+    text-align: center;
 }
 
 article{
