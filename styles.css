@@ -127,8 +127,16 @@ label{
     font-weight: bold;
 }
 
-#agree{
+#about-volleyball-photo{
+    float: right;
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+}
 
+article{
+    text-align: justify;
 }
 
 .transbox{
@@ -140,24 +148,3 @@ label{
     position: relative;
     padding: 25px;
 }
-
-
-
-
-
-
-
-
-
-/*.transbox article{*/
-    /*color: black;*/
-    /*padding-bottom: 25px;*/
-/*}*/
-
-/*#announcements{*/
-    /*padding: 25px;*/
-
-/*.transbox table{*/
-    /*margin: auto;*/
-/*}*/
-
