@@ -5,17 +5,25 @@ div.container {
     height: 1300px;
     background: url("images/beachNet_cropped.jpg") no-repeat scroll center;
     position: relative;
+    margin: auto;
 }
 
 em{
     font-weight: bold;
 }
 
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+
 footer{
     width: 100%;
     height: 50px;
     position: absolute;
-    background: yellow;
+    background: #eee739;
     padding: 20px;
     text-align: center;
     margin: auto;
@@ -23,19 +31,13 @@ footer{
     left: 0;
 }
 
-/*footer{*/
-    /*border-radius: 15px 50px;*/
-    /*margin: 20px auto;*/
-    /*width: 50%;*/
-    /*height: 150px;*/
-/*}*/
 
 nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #093a7d;
 }
 
 nav li{
@@ -45,18 +47,26 @@ nav li{
 nav li a{
     display: block;
     color: white;
+    font-weight: bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 #announcements{
-    margin-left: 70px;
-    text-align: left;
+    margin: auto;
+    text-align: center;
     border-bottom: solid;
     border-bottom-width: 5px;
     padding: 25px;
+}
 
+#heading-leaderboard{
+    text-align: center;
+}
+
+#announcements dt{
+    font-size: 1.5em;
 }
 
  #leaderboard{
@@ -76,10 +86,14 @@ nav li a{
     background-color: #dddddd;
 }
 
+#guidelines{
+    text-align: justify;
+}
+
 #contacts{
     text-align: left;
     border: none;
-    padding: 20px;
+    padding: 10px;
 }
 #contacts th{
     border: none;
@@ -89,6 +103,32 @@ form{
     border-radius: 5px;
     background-color: gainsboro;
     padding: 20px;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #093a7d;
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: solid black thin;
+    border-radius: 4px;
+    cursor: pointer;
+}
+label{
+    font-weight: bold;
+}
+
+#agree{
+
 }
 
 .transbox{
