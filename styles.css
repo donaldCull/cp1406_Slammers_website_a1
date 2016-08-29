@@ -10,14 +10,20 @@ div.container {
 
 em{
     font-weight: bold;
+    font-style: normal;
 }
 
 h1{
     font-size: 2em;
 }
 h2{
-    font-size: 1.5em;
-}
+    font-size: 1.5em;}
+
+/*header p{*/
+    /*display: inline-block;*/
+    /*text-align: right;*/
+
+
 
 footer{
     width: 100%;
@@ -25,8 +31,10 @@ footer{
     position: absolute;
     background: #eee739;
     padding: 20px;
+    font-size: 1.5em;
     text-align: center;
     margin: auto;
+    margin-top: 25px;
     bottom: 0;
     left: 0;
 }
@@ -110,7 +118,7 @@ li a:hover:not(.active) {
 
 form{
     border-radius: 5px;
-    background-color: gainsboro;
+    background-color: rgba(10, 103, 255, 0.76);
     padding: 20px;
 }
 input[type=text], select{
