@@ -13,6 +13,11 @@ em{
     font-style: normal;
 }
 
+#thankyou-message{
+    padding: 20px;
+    margin: auto;
+}
+
 h1{
     font-size: 2em;
 }
@@ -140,6 +145,8 @@ li a:hover:not(.active) {
 
 #guidelines{
     text-align: justify;
+    padding: 20px;
+    margin: 20px;
 }
 
 #contacts{
@@ -155,6 +162,7 @@ form{
     border-radius: 5px;
     background-color: rgba(10, 103, 255, 0.76);
     padding: 20px;
+    margin: 20px;
 }
 input[type=text], select{
     width: 100%;
@@ -176,6 +184,7 @@ input[type=submit] {
     cursor: pointer;
 }
 label{
+    color: white;
     font-weight: bold;
 }
 
@@ -202,6 +211,7 @@ label{
 article{
     text-align: justify;
 }
+
 
 .transbox{
     width: 75%;
