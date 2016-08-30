@@ -1,3 +1,4 @@
+/*Begin body styles*/
 div.container {
     width: 100%;
     border: 1px solid white;
@@ -7,28 +8,28 @@ div.container {
     position: relative;
     margin: 0;
 }
-
+article{
+    text-align: justify;
+}
 em{
     font-weight: bold;
     font-style: normal;
 }
-
-#thankyou-message{
-    padding: 20px;
-    margin: auto;
+blockquote {
+    margin: 0;
 }
-
 h1{
     font-size: 2em;
 }
 h2{
     font-size: 1.5em;}
-
+/*End body styles*/
+/*Begin header styles*/
 header p {
     display: inline-block;
     text-align: center;
     float: right;
-    margin: 100px 5px 5px 5px;
+    margin: 131px 5px 0 0;
     font-size: 1.5em;
     color: white;
 }
@@ -41,13 +42,14 @@ header p {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.2em;
     cursor: pointer;
     margin: 4px 2px;
+    border-radius: 5px;
 }
 
-
-
+/*End header styles*/
+/*Begin Footer styles*/
 footer{
     width: 100%;
     height: auto;
@@ -56,8 +58,7 @@ footer{
     padding: 20px;
     font-size: 1em;
     text-align: left;
-    margin: auto;
-    margin-top: 25px;
+    margin: 25px auto auto;
     bottom: 0;
     left: 0;
 }
@@ -78,8 +79,8 @@ footer span{
 footer a{
     color: white;
 }
-
-
+/*End footer styles*/
+/*Begin navigation styles*/
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -109,28 +110,30 @@ li a:hover:not(.active) {
 .active{
     background-color: #0a54cf;
 }
-
+/*End Navigation Styles*/
+/*Begin Announcements*/
 #announcements{
     margin: auto;
     text-align: center;
-    border-bottom: solid;
-    border-bottom-width: 5px;
+    border-bottom: 5px solid;
     padding: 25px;
 }
 
-#heading-leaderboard{
-    text-align: center;
-}
 
 #announcements dt{
     font-size: 1.5em;
 }
-
+/*End Announcements*/
+/*Begin Leaderboard styles*/
  #leaderboard{
     font-family: arial, sans-serif;
     border-collapse: collapse;
     max-width: 75%;
-    margin: auto;
+    margin: 25px auto;
+}
+
+#heading-leaderboard{
+    text-align: center;
 }
 
 #leaderboard td, th {
@@ -140,15 +143,10 @@ li a:hover:not(.active) {
 }
 
 #leaderboard tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: rgba(10, 103, 255, 0.71);
 }
-
-#guidelines{
-    text-align: justify;
-    padding: 20px;
-    margin: 20px;
-}
-
+/*End Leaderboard Styles*/
+/*Contact styles*/
 #contacts{
     text-align: left;
     border: none;
@@ -157,7 +155,8 @@ li a:hover:not(.active) {
 #contacts th{
     border: none;
 }
-
+/*End Contact Styles*/
+/*Start of form styles*/
 form{
     border-radius: 5px;
     background-color: rgba(10, 103, 255, 0.76);
@@ -187,11 +186,28 @@ label{
     color: white;
     font-weight: bold;
 }
-
-.volleyball-links{
-    padding: 10px;
+#guidelines{
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
 }
 
+/*End of form styles*/
+/*Begin Link styles*/
+.volleyball-links ul{
+    list-style-type: none;
+}
+.volleyball-links a:link{
+    color: #093a7d;
+}
+.volleyball-links a:visited{
+    color: #0a54cf;
+}
+.volleyball-links a:hover{
+    color: yellow;
+}
+/*End link styles*/
+/*Begin image styles*/
 #about-volleyball-photo{
     float: right;
     margin: auto;
@@ -206,18 +222,22 @@ label{
     width: 400px;
     clear: right;
     text-align: center;
+    font-size: 0.8em;
 }
-
-article{
-    text-align: justify;
+/*End image styles*/
+/*Thankyou page styles*/
+#thankyou-message{
+    padding: 20px;
+    margin: auto;
 }
-
-
+/*End thankyou page styles*/
+/*Begin background styles*/
 .transbox{
     width: 75%;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
     margin: auto;
     position: relative;
     padding: 10px;
 }
+/*End background styles*/
