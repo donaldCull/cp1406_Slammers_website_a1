@@ -3,67 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <title>About Slammers</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-    <header>
-        <h1>About Slammers</h1>
-    </header>
+        <header>
+            <img src="images/vector_volleyball_logo.png" alt="slammers logo">
+            <div class="call-to-action">
+                <em>Bring the whole family</em> <a href="sign_up.html" class="button">Join Now!</a>
+            </div>
+        </header>
+
     <nav>
         <ul>
             <li><a href="index.html" >Home</a></li>
             <li><a href="sign_up.html" >Sign up</a></li>
-            <li><a href="about.html" >About</a></li>
+            <li><a class="active" href="about.html" >About</a></li>
         </ul>
     </nav>
 
-    <article>
-        <h2>You can play!</h2>
-        <p>
-            There are 800 million players worldwide who play volleyball at least once a week. Volleyball is a sport that is safe,
-            fun and does not require extreme fitness.
-        </p>
-        <p>
-        Since you don’t have to move around the court too much, it’s great for people who want a low-impact sport that will help them get fit without pushing them to their limit.
-            For those who are a bit more competitive, the sport is fantastic because games can be really exciting and intense, but there’s always a net between you and your opponents.
-        </p>
-        <p>
-        Beach volleyball is suitable for people of all ages, men and women alike.
-        Anyone considering starting a new sport or exercise program should see their doctor first.
-        </p>
-    </article>
 
-    <h2>About Volleyball</h2>
-    <article>
-        <p>
-            The object of the game is for each team to send the ball regularly over the net to ground it on the opponent's court, and to prevent the ball from being grounded on its own court.
-            The ball is put into play by the right back-row player who serves the ball by hitting it over the net to the opponent's court.
-        </p>
-        <p>
-            A team is allowed to hit the ball three times (in addition to the block contact) to return it to the opponent's court.
-            A player is not allowed to hit the ball twice consecutively, except when attempting a block.
-            The rally continues until the ball touches the ground/floor, goes "out", a team fails to return it to the opponent's court or commits a fault.
-        </p>
-        <p>
-            The team winning a rally scores a point (Rally Point System). When the receiving team wins a rally,
-            it gains a point and the right to serve, and its players rotate one position clockwise.
-            The best of three or best of five games will win matches.
-        </p>
-        <p>
-            Each non-deciding game will be won by the team that first scores 25 points with a minimum two-point advantage (no scoring cap).
-            If there is a deciding game, it will be won by the team that first scores 15 points with a minimum two-point advantage (no scoring cap).
-        </p>
-    <!--TODO Make 'Reproduced from' as text and the rest a Hyperlink -->
-        <a href="http://www.volleyball.org/whatis.html" target="_blank">Reproduced from http://www.volleyball.org/whatis.html</a>
-    </article>
+        <div class="transbox">
+            <article>
+                <h1>About Slammers</h1>
+                <h2>You can play!</h2>
+                <p>
+                    There are <em>800 million players</em> worldwide who play volleyball at least once a week. Volleyball is a
+                    sport that is safe,
+                    fun and <em>does not</em> require extreme fitness.
+                </p>
 
-    <h3>Volleyball Links</h3>
-    <ul>
-        <li><a href="http://www.volleyball.org/" target="_blank"> Volleyball worldwide</a></li>
-        <li><a href="http://www.fivb.org/EN/beachvolleyball/" target="_blank">FIVB International Federation of Volleyball, Beach</a></li>
-        <li><a href="http://www.avp.com/" target="_blank">Association of Volleyball Professionals</a></li>
-    </ul>
-        <footer>Copyright &copy; Slammers 2016 </footer>
+                <img id="about-volleyball-photo" src="images/5208457834_f7d61d8445_z.jpg" alt="volleyball">
+
+                <div class="volleyball-links">
+                    <p id="photo-attribution">This image has been resized <a href="https://www.flickr.com/photos/37873897@N06/5208457834" target="_blank">https://www.flickr.com/photos/37873897@N06/5208457834</a> </p>
+                </div>
+                <p>
+                    Since you don’t have to move around the court too much, it’s great for people who want a <em>low-impact
+                    sport</em> that will help them get fit without pushing them to their limit.
+                    For those who are a bit more competitive, the sport is fantastic because games can be really
+                    <em>exciting and intense</em>, but there’s always a net between you and your opponents.
+                </p>
+                <p>
+                    Beach volleyball is suitable for <em>people of all ages, men and women alike.</em>
+                    Anyone considering starting a new sport or exercise program should see their doctor first.
+                </p>
+            </article>
+
+            <h2>About Volleyball</h2>
+            <blockquote cite="http://www.volleyball.org/whatis.html">
+                <p>
+                    The object of the game is for each team to send the ball regularly over the net to ground it on the
+                    opponent's court, and to prevent the ball from being grounded on its own court.
+                    The ball is put into play by the right back-row player who serves the ball by hitting it over the
+                    net to the opponent's court.
+                </p>
+                <p>
+                    A team is allowed to hit the ball three times <em>(in addition to the block contact)</em> to return it to the
+                    opponent's court.
+                    A player is not allowed to hit the ball twice consecutively, except when attempting a block.
+                    The rally continues until the ball touches the ground/floor, goes <q>out</q>, a team fails to return it
+                    to the opponent's court or commits a fault.
+                </p>
+                <p>
+                    The team winning a rally scores a point <abbr title="Rally Point System">RPS</abbr>. When the receiving team wins a rally,
+                    it gains a point and the right to serve, and its players rotate one position clockwise.
+                    The best of <em>three</em> or best of <em>five games</em> will win matches.
+                </p>
+                <p>
+                    Each non-deciding game will be won by the team that first scores <em>25</em> points with a minimum two point
+                    advantage <abbr title="no scoring cap">NSC</abbr>.
+                    If there is a deciding game, it will be won by the team that first scores <em>15</em> points with a minimum
+                    two-point advantage <abbr title="no scoring cap">NSC</abbr>.
+                </p>
+            </blockquote>
+
+            <div class="volleyball-links">
+                <a href="http://www.volleyball.org/whatis.html" target="_blank">Reproduced from http://www.volleyball.org/whatis.html</a>
+            </div>
+
+            <div class="volleyball-links">
+                <h3>Useful Volleyball Links</h3>
+                <ul>
+                    <li><a href="http://www.volleyball.org/" target="_blank"> Volleyball worldwide</a></li>
+                    <li><a href="http://www.fivb.org/EN/beachvolleyball/" target="_blank">FIVB International Federation of Volleyball, Beach</a></li>
+                    <li><a href="http://www.avp.com/" target="_blank">Association of Volleyball Professionals</a></li>
+                </ul>
+        </div>
+</div>
+
+        <footer>
+            <ul>
+                <li><span>Phone:</span> 4771 2233</li>
+                <li><span>Fax:</span> 4771 2244</li>
+                <li><span>Address:</span> 123 Pokemund Street, Cairnsville</li>
+                <li><span>Email:</span> <a href="mailto:slammers@gmail.com">slammers@gmail.com</a></li>
+            </ul>
+        </footer>
+
     </div>
+
 </body>
 </html>

@@ -1,0 +1,264 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Begin body styles*/
+
+div.container {
+    width: 100%;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1300px;
+    background: url("images/beachNet_cropped.jpg") no-repeat scroll center;
+    position: relative;
+    margin: 0;
+}
+article{
+    text-align: justify;
+}
+p{
+    padding: 10px 0;
+}
+em{
+    font-weight: bold;
+    font-style: normal;
+}
+blockquote {
+    text-align: justify;
+    margin: 0;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+h3{
+    font-size: 1.3em;
+    padding: 10px 0;
+}
+dt{
+    padding: 10px 0;
+}
+/*End body styles*/
+/*Begin header styles*/
+.call-to-action {
+    display: inline-block;
+    text-align: center;
+    float: right;
+    margin: 131px 5px 0 0;
+    font-size: 1.5em;
+    color: white;
+}
+
+.button{
+    background-color: #eee739;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+/*End header styles*/
+/*Begin Footer styles*/
+footer{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background: #093a7d;
+    padding: 20px;
+    font-size: 1em;
+    text-align: left;
+    margin: 25px auto auto;
+    bottom: 0;
+    left: 0;
+}
+
+footer ul{
+    color: white;
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer span{
+    display: inline-block;
+    width: 80px;
+}
+footer a{
+    color: white;
+}
+/*End footer styles*/
+/*Begin navigation styles*/
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #093a7d;
+}
+
+nav li{
+    float: left;
+    border-right: 1px solid white;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #eee739;
+}
+
+.active{
+    background-color: #0a54cf;
+}
+/*End Navigation Styles*/
+/*Begin Announcements*/
+#announcements{
+    margin: auto;
+    text-align: center;
+    border-bottom: 5px solid;
+    padding: 25px;
+}
+
+
+#announcements dt{
+    font-size: 1.5em;
+}
+/*End Announcements*/
+/*Begin Leaderboard styles*/
+ #leaderboard{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    max-width: 75%;
+    margin: 25px auto;
+}
+
+#heading-leaderboard{
+    text-align: center;
+}
+
+#leaderboard td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+#leaderboard tr:nth-child(even) {
+    background-color: rgba(10, 103, 255, 0.71);
+}
+/*End Leaderboard Styles*/
+/*Contact styles*/
+#contacts{
+    text-align: left;
+    border: none;
+    padding: 10px;
+}
+#contacts th{
+    border: none;
+}
+/*End Contact Styles*/
+/*Start of form styles*/
+form{
+    border-radius: 5px;
+    background-color: rgba(10, 103, 255, 0.76);
+    padding: 20px;
+    margin: 20px;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #093a7d;
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: solid black thin;
+    border-radius: 4px;
+    cursor: pointer;
+}
+label{
+    color: white;
+    font-weight: bold;
+}
+#guidelines{
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*End of form styles*/
+/*Begin Link styles*/
+.volleyball-links ul{
+    /*padding: 20px;*/
+    list-style-type: none;
+}
+.volleyball-links a:link{
+    color: #093a7d;
+}
+.volleyball-links a:visited{
+    color: #0a54cf;
+}
+.volleyball-links a:hover{
+    color: yellow;
+}
+/*End link styles*/
+/*Begin image styles*/
+#about-volleyball-photo{
+    float: right;
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+}
+#photo-attribution{
+    float: right;
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+    clear: right;
+    text-align: center;
+    font-size: 0.8em;
+}
+/*End image styles*/
+/*Thankyou page styles*/
+#thankyou-message{
+    padding: 20px;
+    margin: auto;
+}
+/*End thankyou page styles*/
+/*Begin background styles*/
+.transbox{
+    width: 75%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    position: relative;
+    padding: 20px;
+}
+/*End background styles*/
