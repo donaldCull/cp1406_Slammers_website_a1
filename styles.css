@@ -1,4 +1,11 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /*Begin body styles*/
+
 div.container {
     width: 100%;
     border: 1px solid white;
@@ -11,21 +18,34 @@ div.container {
 article{
     text-align: justify;
 }
+p{
+    padding: 10px 0;
+}
 em{
     font-weight: bold;
     font-style: normal;
 }
 blockquote {
+    text-align: justify;
     margin: 0;
 }
 h1{
     font-size: 2em;
 }
 h2{
-    font-size: 1.5em;}
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+h3{
+    font-size: 1.3em;
+    padding: 10px 0;
+}
+dt{
+    padding: 10px 0;
+}
 /*End body styles*/
 /*Begin header styles*/
-header p {
+.call-to-action {
     display: inline-block;
     text-align: center;
     float: right;
@@ -195,6 +215,7 @@ label{
 /*End of form styles*/
 /*Begin Link styles*/
 .volleyball-links ul{
+    /*padding: 20px;*/
     list-style-type: none;
 }
 .volleyball-links a:link{
@@ -238,6 +259,6 @@ label{
     background-color: rgba(255, 255, 255, 0.7);
     margin: auto;
     position: relative;
-    padding: 10px;
+    padding: 20px;
 }
 /*End background styles*/
